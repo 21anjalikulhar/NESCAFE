@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    /* border: 1px solid red; */
+}
+.main-container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color:  #302216;
+    padding-inline: 40px;
+    justify-content: space-between;
+}
+.nav .start{
+    width: auto;
+    display: flex;
+    margin-left: 40px;
+}
+.nav .start img{
+    width: 100px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+}
+.mid ul li{
+    font-size: 1.2em;
+    margin-left: 20px;
+    color: white;
+}
+.end{
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+}
+.end .box{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em;
+    background-color: #43301F;
+}
+#two{
+    font-weight: 400;
+    font-size: 0.9em;
+    padding-inline: 20px;
+    margin-block: 20px;
+}
+#two li{
+    margin-left: 20px;
+    color: gray;
+}
+.btn-sec{
+    height: auto;
+    width: auto;
+    padding-block: 40px;
+    display: flex;
+    justify-content: center;
+}
+.btn-sec button{
+    height: 40px;
+    width: auto;
+    padding-inline: 15px;
+    border-radius: 20px;
+    margin-left: 20px;
+    border: none;
+}
+#last{
+    background-color: #333F48;
+    color: white;
+}
+.mid{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+.brown-part{
+    height: auto;
+    width: 90%;
+    display: flex;
+}
+.lefty{
+    height: 200px;
+    width: 50%;
+    padding-inline: 30px;
+    padding-block: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FAF4EA;
+}
+.lefty h6{
+    font-size: 1em;
+    font-weight: 300;
+}
+.righty{
+    height: 200px;
+    width: 50%;
+}
+.righty img{
+    height: 100%;
+    width: 100%;
+}
+.card-body{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;   
+}
+
+.card p{
+    font-size: 0.8em;
+    font-weight: bold;
+}
+.card-sec #four{
+    background-image: url(./PLP-Facts-2000x2000.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-inline: 10px;
+    padding-block: 10px;
+}
+.card-sec #eight{
+    background-image: url(./PLP-Facts-2000x2000.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-inline: 10px;
+    padding-block: 10px;
+}
+.footer-part{
+    height: auto;
+    width: 100%;
+    background-color:#302216 ;
+}
+.footer-part a{
+    font-size: 0.7em;
+}
+#our-coffee{
+    margin-top: 30px;
+}
+
+/* responsive css code */
+
+@media (max-width:768px) {
+    .mid ul{
+        display: none;
+    }
+    .btn-sec{
+        height: auto;
+        width: auto;
+        padding-block: 25px;
+        display: flex;
+        justify-content: center;
+    }
+    #responsive{
+        display: none;
+    }
+    .brown-part{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .lefty{
+        height: 220px;
+        width: 100%;
+        padding-inline: 40px;
+    }
+    .righty{
+        margin-top: 30px;
+        height: 200px;
+        width: 100%;
+    }
+    #two li{
+        font-size: 0.8em;
+    }
+    .end{
+        width: 80px;
+    }
+    .end .box{
+        height: 35px;
+        width: 35px;
+        font-size: 1em;
+    }
+    
+}
+
